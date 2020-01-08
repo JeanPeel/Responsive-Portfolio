@@ -1,13 +1,13 @@
 #nav-bar {
     position: relative;
     border-bottom: 2px solid #dddddd;
-    height: 70px;
+    height:60px;
     background-color: #ffffff;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 1%;
+    padding-bottom: 5px;
   }
 
   #menu {
@@ -16,18 +16,18 @@
   }
 
   #jp-header {
-    height: 68px;
+    height: 60px;
     position: absolute;
     left: 0%;
-    padding-top: 1%;
+    padding-top: 5px;
     padding-left: 2%;
     background-color: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 1%;
-    width: 240px;
+    padding-bottom: 5px;
+    width: 20%;
     
   }
 
@@ -46,7 +46,7 @@
   #about {
     position: absolute;
     left: 35%;
-    top: 20%;
+    top: 10px;
     
   }
 
@@ -54,14 +54,14 @@
   #portfolio {
     position: absolute;
     left: 42%;
-    top: 20%;
+    top: 10px;
     
   }
 
   #contact {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 10px;
     
   }
 
@@ -239,13 +239,29 @@
 
 
 
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 960px) {
     body {
       background-color: orange
     }
 
-    #main-section {
-      background-color: orange
+    #menu {
+      left: 10%;
+    }
+
+    #jp-header {
+      
+    }
+
+      #main-section {
+        background-color: orange;
+        width: 768px;
+        margin-left: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        
+      }
+      
     }
   }
 
