@@ -10,24 +10,28 @@
     padding-bottom: 1%;
   }
 
+  #menu {
+    position: relative;
+    left: 18%;
+  }
+
   #jp-header {
     height: 68px;
     position: absolute;
-    left: 18%;
+    left: 0%;
+    padding-top: 1%;
     padding-left: 2%;
-    padding-right: 2%;
     background-color: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 1%;
+    width: 240px;
+    
   }
 
-  #menu {
-    position: absolute;
-    left: 18%;
-  }
+ 
 
   a {
     color: #777777;
@@ -37,26 +41,28 @@
   a:hover {
     color: #4aaaa5;
   }
-
   
 
   #about {
     position: absolute;
-    left: 755px;
-    top: 50%;
+    left: 35%;
+    top: 20%;
+    
   }
 
   
   #portfolio {
     position: absolute;
-    left: 855px;
-    top: 50%;
+    left: 42%;
+    top: 20%;
+    
   }
 
   #contact {
     position: absolute;
-    left: 955px;
-    top: 50%;
+    left: 50%;
+    top: 20%;
+    
   }
 
   body {
@@ -103,7 +109,7 @@
  
   img {
     float: left;
-    margin-right: 25px;
+    margin-right: 3%;
   }
 
   .clearfix::after {
@@ -229,4 +235,26 @@
     position: absolute;
     top: 40%;
     left: 50%
+  }
+
+
+
+  @media only screen and (max-width: 760px) {
+    body {
+      background-color: orange
+    }
+
+    #main-section {
+      background-color: orange
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: red
+    }
+
+    #main-section {
+      background-color: red
+    }
   }
